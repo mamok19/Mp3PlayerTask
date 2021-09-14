@@ -65,7 +65,7 @@ const player = {
     )
   },
 }
-
+/*core functions*/
 function playSong(id) {
   player.playSong(player.songs.find((song) => song.id === id))
 }
